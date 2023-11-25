@@ -1,7 +1,7 @@
 p {
   width: 100px;
   height: 20px;
-  border: 30px;
+  /* border: 30px; */
   padding: 30px;
   border-radius: 20px;
   background-color: rgb(37, 63, 288);
@@ -11,8 +11,11 @@ p {
   position: relative;
   top: 350px;
   left: 650px;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  transition-property: transform;
 }
 
 p:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
